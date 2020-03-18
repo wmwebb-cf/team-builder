@@ -1,9 +1,12 @@
-const teamMembers = [
+import React from 'react';
+
+
+let teamMembers = [
   {
     id: 1,
     name: 'Bugs Bunny',
     email: 'bbunny@toons.com',
-    position: 'project manager'
+    position: 'Project Manager'
   },
   {
     id: 2,
@@ -31,3 +34,5 @@ const teamMembers = [
   }
 
 ];
+
+export default teamMembers;
